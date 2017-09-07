@@ -17,8 +17,8 @@ var hoverDuration = 0,
 
 function setDimensions(w) {
 
-    // var target = document.getElementById('container-left-hover');
-    console.log(w);
+    var targetW = leftTitle.getBoundingClientRect().width
+    $('.container-left').css('width', targetW)
 
 }
 
@@ -77,6 +77,18 @@ function interactivity() {
 
     d3.selectAll('.container-left-title')
         .on('click', containerLeftItemClick);
+
+}
+
+////////////////////////
+// PAGE BUTTON CLICKS //
+////////////////////////
+
+function showProjects() {
+    $('.container-right-project-container').slideDown();
+    $('.container-right-home-container').slideUp();
+    $('.containter-right-resume-container').slideUp();
+    $('.container-right-contact-container').slideUp();
 
 }
 

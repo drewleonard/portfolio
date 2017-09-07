@@ -30,8 +30,7 @@ body {
     flex-direction: column;
     width: 200px;
     padding: 50px;
-    z-index: 1;
-    /* box-shadow: 2px 2px 5px #aaa; */
+    /* z-index: 1; */
 }
 
 .container-left-title-container {
@@ -43,8 +42,9 @@ body {
 
 .container-left-title {
     flex-shrink: 1;
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
+    z-index: 100;
 }
 
 .container-left-item-container {
@@ -52,12 +52,12 @@ body {
     flex-direction: row;
     margin: 0 0 1.50em 0;
     font-size: 18px;
-    z-index: 200;
 }
 
 .container-left-item {
     flex-shrink: 1;
     cursor: pointer;
+    z-index: 100;
 }
 
 .container-right {
@@ -66,9 +66,22 @@ body {
     flex: 1;
 }
 
+.container-right-home,
+.container-right-project,
+.containter-right-resume,
+.container-right-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-right-project-container,
+.container-right-resume-container,
+.container-right-contact-container {
+    display: none;
+}
+
 .container-left-hover {
     position: absolute;
-    background-color: #268bd2;
+    background-color: #2aa198;
     opacity: 0.40;
-    z-index: 100;
 }
