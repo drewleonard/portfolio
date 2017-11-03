@@ -4,6 +4,8 @@
     --primary-font-color: #080a3c;
     --secondary-font-color: #8b8d9e;
     --primary-font-size: 11px;
+    --solarized-red: #dc322f;
+    --solarized-blue: #268bd2;
 }
 
 html,
@@ -18,9 +20,21 @@ body {
     color: var(--primary-font-color);
 }
 
+body {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
 .nav-container {
     display: flex;
     flex-direction: row;
+    position: static;
+}
+
+.content {
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 .nav-item {
@@ -50,14 +64,36 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2.5vh 0 0 0;
+    margin: 2.5vw 2.5vw 2.5vh 2.5vw;
 }
 
 .projects-img-container {
     align-self: center;
+    display: flex;
+    align-items: center;
+    width: 95vw;
+    height: 30vw;
+    overflow: hidden;
 }
 
-.projects-img {
-    width: 95vw;
-    height: auto;
+.projects-img {}
+
+.projects-title {
+    font-size: 2.5em;
+    align-self: flex-start;
+    margin: 2.5vw 0 0 0;
+    color: var(--solarized-red);
+}
+
+.projects-date {
+    font-size: 1.25em;
+    align-self: flex-start;
+}
+
+.projects-desc {
+    font-size: 1.25em;
+    align-self: flex-start;
+    margin: 1vw 0 0 0;
+    padding: 0 0 3vw 0;
+    border-bottom: 1px solid var(--primary-font-color);
 }
