@@ -2,6 +2,7 @@
     --primary-color: #efefef;
     --primary-font: 'Avenir Next';
     --primary-font-color: #080a3c;
+    --secondary-font-color: #8b8d9e;
     --primary-font-size: 11px;
 }
 
@@ -31,7 +32,8 @@ body {
     align-items: center;
     background-color: #FFFFFF;
     border: 0.25px solid var(--primary-color);
-    color: #8b8d9e;
+    text-decoration: none;
+    color: var(--secondary-font-color);
 }
 
 .nav-item.active {
@@ -40,6 +42,6 @@ body {
 
 .nav-item.active,
 .nav-item:hover {
-    color: var(--primary-font-color);
     cursor: pointer;
+    color: var(--primary-font-color);
 }
