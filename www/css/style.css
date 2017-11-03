@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #fdf6e3;
-    --primary-font: 'Roboto', sans-serif;
-    --primary-font-color: #586e75;
-    --primary-font-size: 14px;
+    --primary-color: #efefef;
+    --primary-font: 'Avenir Next';
+    --primary-font-color: #080a3c;
+    --primary-font-size: 11px;
 }
 
 html,
@@ -15,4 +15,31 @@ body {
     font-family: var(--primary-font);
     font-size: var(--primary-font-size);
     color: var(--primary-font-color);
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 0.25px solid var(--primary-color);
+    color: #8b8d9e;
+}
+
+.nav-item.active {
+    background-color: var(--primary-color);
+}
+
+.nav-item.active,
+.nav-item:hover {
+    color: var(--primary-font-color);
+    cursor: pointer;
 }
