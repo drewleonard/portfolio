@@ -26,6 +26,26 @@ body {
     flex-direction: column;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media (min-width: 600px) {
+    .mobile {
+        display: none;
+    }
+} */
+
 .nav-container {
     display: flex;
     flex-direction: row;
@@ -79,6 +99,7 @@ body {
 .projects-img {}
 
 .projects-title {
+    font-weight: 500;
     font-size: 2.5em;
     align-self: flex-start;
     margin: 2.5vw 0 0 0;
@@ -95,5 +116,30 @@ body {
     align-self: flex-start;
     margin: 1vw 0 0 0;
     padding: 0 0 3vw 0;
-    border-bottom: 1px solid var(--primary-font-color);
+    border-bottom: 3px solid var(--primary-font-color);
+}
+
+.resume-item {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5vw 2.5vw 2.5vh 2.5vw;
+}
+
+.resume-title {
+    font-size: 2.5em;
+    color: var(--solarized-red);
+    border-bottom: 3px solid var(--solarized-red);
+    font-weight: 500;
+}
+
+.resume-item-edu {
+    display: flex;
+    flex-direction: row;
+}
+
+.resume-item-subtitle {
+    font-size: 1.5em;
+    color: var(--primary-font-color);
+    margin: 1vh 0 0 0;
+    font-weight: 500;
 }
