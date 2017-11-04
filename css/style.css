@@ -80,29 +80,31 @@ body {
     width: 95vw;
     height: 30vw;
     overflow: hidden;
+    border: 0.50px solid var(--primary-font-color);
 }
 
 .projects-img {}
 
 .projects-title {
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 2em;
     align-self: flex-start;
     margin: 2.5vw 0 0 0;
-    color: var(--solarized-red);
+    /* color: var(--solarized-red); */
 }
 
 .projects-date {
     font-size: 1.25em;
     align-self: flex-start;
+    color: var(--secondary-font-color);
 }
 
 .projects-desc {
-    font-size: 1.25em;
+    font-size: 1.15em;
     align-self: flex-start;
     margin: 1vw 0 0 0;
     padding: 0 0 3vw 0;
-    border-bottom: 3px solid var(--primary-font-color);
+    border-bottom: 0.75px solid var(--primary-font-color);
 }
 
 .resume-item {
@@ -207,4 +209,19 @@ button.slim {
 
 button:hover {
     text-decoration: none
+}
+
+.about-item {
+    margin: 2.5vw 2.5vw 2.5vh 2.5vw;
+}
+
+.about-title {
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: 0.75px solid var(--primary-font-color);
+}
+
+.about-content {
+    margin: 1em 0 1em 0;
+    font-size: 1.25em;
 }
