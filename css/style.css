@@ -26,9 +26,21 @@ body {
     flex-direction: column;
 }
 
-@media (min-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
+    .mobile {
+        display: block;
+    }
+    .non-mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
     .mobile {
         display: none;
+    }
+    .non-mobile {
+        display: block;
     }
 }
 
@@ -160,8 +172,22 @@ body {
     margin: 0.25em 0 0 0;
 }
 
-form {
+.contact-wrapper {
     margin: 2.5vw 2.5vw 2.5vh 2.5vw;
+}
+
+.contact-title {
+    font-size: 2em;
+    font-weight: 500;
+    border-bottom: 0.75px solid var(--primary-font-color);
+}
+
+.contact-info {
+    margin: 1em 0 0 0;
+    font-size: 1.25em;
+}
+
+form {
     display: flex;
     flex-direction: column;
 }
@@ -223,5 +249,24 @@ button:hover {
 
 .about-content {
     margin: 1em 0 1em 0;
+    font-size: 1.50em;
+}
+
+.index-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: 2.5vw 2.5vw 2.5vh 2.5vw;
+}
+
+
+.index-title {
+    font-size: 2.5em;
+    font-weight: 500;
+    color: var(--primary-font-color);
+}
+
+.index-title-first {
     font-size: 1.25em;
+    font-weight: 500;
+    color: var(--primary-font-color);
 }
