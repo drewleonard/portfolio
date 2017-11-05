@@ -86,14 +86,11 @@ body {
         border: 0.50px solid var(--primary-font-color);
     }
 
-    .projects-img {}
-
     .projects-title {
         font-weight: 500;
         font-size: 2em;
         align-self: flex-start;
         margin: 2.5vw 0 0 0;
-        /* color: var(--solarized-red); */
     }
 
     .projects-date {
@@ -288,7 +285,7 @@ body {
         width: 75px;
         height: 50px;
         cursor: pointer;
-        margin: 0 0 3em 0;
+        margin: 0 0 50px 0;
     }
 
     .nav-item {
@@ -317,6 +314,7 @@ body {
     .content-title {
         font-size: 3em;
         font-weight: 500;
+        margin: 0 0 50px 0;
     }
 
     .content-title-first {
@@ -330,5 +328,21 @@ body {
         letter-spacing: 2px;
         color: var(--secondary-font-color);
         text-transform: uppercase;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .project-img-container {
+        /* align-self: center; */
+        display: flex;
+        /* align-items: center; */
+        width: 125px;
+        height: 125px;
+        overflow: hidden;
+        border: 0.50px solid var(--primary-font-color);
+        border-radius: 5px;
     }
 }
