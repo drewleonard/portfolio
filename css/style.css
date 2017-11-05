@@ -259,7 +259,6 @@ body {
     .index-title-first {
         font-size: 1.25em;
         font-weight: 500;
-        color: var(--primary-font-color);
     }
 }
 
@@ -282,13 +281,14 @@ body {
     .nav-container {
         display: flex;
         flex-direction: column;
-        width: 125px;
+        width: 150px;
     }
 
     .dnl-logo {
         width: 75px;
         height: 50px;
         cursor: pointer;
+        margin: 0 0 3em 0;
     }
 
     .nav-item {
@@ -297,10 +297,19 @@ body {
         font-weight: 500;
         letter-spacing: 2px;
         margin: 1em 0 0 0;
-        flex: initial;
     }
 
     .content {
         flex-grow: 1;
+    }
+
+    .content-title {
+        font-size: 3em;
+        font-weight: 500;
+    }
+
+    .content-title-first {
+        font-size: 1.25em;
+        font-weight: 500;
     }
 }
