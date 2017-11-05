@@ -306,6 +306,10 @@ body {
         color: var(--secondary-font-color);
     }
 
+    .nav-item-link:hover {
+        color: var(--primary-font-color);
+    }
+
     .content {
         flex-grow: 1;
     }
