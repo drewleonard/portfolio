@@ -286,7 +286,7 @@ body {
         flex-grow: 1;
         overflow-y: scroll;
         max-width: 600px;
-        padding: 0 0 0 25px;
+        padding: 0 25px 25px 25px;
     }
 
     .nav-container {
@@ -362,6 +362,7 @@ body {
     }
 
     .project-img-container-large {
+        margin: 2em 0 2em 0;
         display: flex;
         width: auto;
         height: auto;
@@ -369,8 +370,13 @@ body {
         border-radius: 5px;
     }
 
+    .project-img-container-large:hover {
+        box-shadow: 2px 2px 18px var(--dartmouth-green);
+        cursor: pointer;
+    }
+
     .project-img-container:hover {
-        box-shadow: 2px 2px 18px #00693E;
+        box-shadow: 2px 2px 18px var(--dartmouth-green);
         cursor: pointer;
     }
 
@@ -410,5 +416,51 @@ body {
     .about-item {
         margin: 0.50em 0 1.50em 0;
         font-size: 1.25em;
+    }
+
+    .project-indv-header {
+        font-size: 1.50em;
+        margin: 0 0 1em 0;
+    }
+
+    .project-indv-header-title {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .project-link {
+        font-size: 1.25em;
+        font-weight: 500;
+    }
+
+    .project-link-link {
+        text-decoration: none;
+        font-weight: 400;
+        color: var(--secondary-font-color);
+        margin: 0 0 0 1em;
+    }
+
+    .project-link-link:hover {
+        color: var(--dartmouth-green);
+    }
+
+    .project-indv-container {
+        margin: 0 0 2em 0;
+    }
+
+    .project-indv-desc-container {
+        margin: 0.50em 0 0 0;
+    }
+
+    .project-indv-title {
+        font-weight: 500;
+        font-size: 1.50em;
+        text-transform: uppercase;
+        margin: 0 0 0 0;
+    }
+
+    .project-indv-desc {
+        font-size: 1.25em;
+        margin: 0 0 1em 0;
     }
 }
