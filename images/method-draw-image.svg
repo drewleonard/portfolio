@@ -1,0 +1,39 @@
+<svg width="900" height="900" xmlns="http://www.w3.org/2000/svg">
+    <!--     <g>
+        <title>background</title>
+        <rect fill="#ffffff" id="canvas_background" height="902" width="902" y="-1" x="-1" />
+        <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+            <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" />
+        </g>
+    </g> -->
+    <g>
+        <rect id="svg_23" height="30" width="30" y="238.449997" x="33.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_24" height="30" width="30" y="278.449997" x="33.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_25" height="30" width="30" y="318.449997" x="33.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_31" height="30" width="30" y="238.449997" x="73.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_33" height="30" width="30" y="318.449997" x="73.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_37" height="30" width="30" y="158.449997" x="113.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_38" height="30" width="30" y="198.449997" x="113.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_39" height="30" width="30" y="238.449997" x="113.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_40" height="30" width="30" y="278.449997" x="113.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_41" height="30" width="30" y="318.449997" x="113.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_45" height="30" width="30" y="158.449997" x="153.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_46" height="30" width="30" y="198.449997" x="153.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_47" height="30" width="30" y="238.449997" x="153.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_48" height="30" width="30" y="278.449997" x="153.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_49" height="30" width="30" y="318.449997" x="153.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_53" height="30" width="30" y="158.449997" x="193.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_61" height="30" width="30" y="158.449997" x="233.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_62" height="30" width="30" y="198.449997" x="233.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_63" height="30" width="30" y="238.449997" x="233.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_64" height="30" width="30" y="278.449997" x="233.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_65" height="30" width="30" y="318.449997" x="233.500001" stroke-width="0" stroke="#000" fill="#cccccc" />
+        <rect id="svg_69" height="30" width="30" y="158.449997" x="273.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_70" height="30" width="30" y="198.449997" x="273.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_71" height="30" width="30" y="238.449997" x="273.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_72" height="30" width="30" y="278.449997" x="273.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_73" height="30" width="30" y="318.449997" x="273.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_81" height="30" width="30" y="318.449997" x="313.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+        <rect id="svg_104" height="30" width="30" y="318.449997" x="353.500001" stroke-width="0" stroke="#000" fill="#dc322f" />
+    </g>
+</svg>
