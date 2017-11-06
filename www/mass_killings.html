@@ -1,52 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- TO DO -->
+<!-- Add footnote feature to about page -->
 
 <head>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Drew N. Leonard Personal Website</title>
+    <title>Drew N. Leonard</title>
     <script src="js/d3.min.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
 </head>
 
 <body>
     <div class="nav-container-mobile">
-        <a class="nav-item" href="index.html">Drew</a>
-        <a class="nav-item active" href="projects.html">Projects</a>
+        <a class="nav-item active" href="index.html">Drew</a>
+        <a class="nav-item" href="projects.html">Projects</a>
         <a class="nav-item" href="resume.html">Resume</a>
         <a class="nav-item" href="about.html">About</a>
         <a class="nav-item" href="contact.html">Contact</a>
     </div>
     <div class="content-mobile">
-        <div class="projects-container">
-            <div class="projects-item">
-                <div class="projects-img-container">
-                    <img class="projects-img" src="images/trade_img.png"></img>
-                </div>
-                <div class="projects-title">World Trade</div>
-                <div class="projects-date">Fall 2017 (in progress)</div>
-                <div class="projects-desc">This projects will visualize global free trade flows between 1870 and 2014. Data comes from the Correlates of War (COW) project.</div>
+        <div class="index-content">
+            <div class="index-title">
+                <span class="index-title-first">D</span>rew <span class="index-title-first">N</span>avin
+                <span class="index-title-first">L</span>eonard
             </div>
-        </div>
-        <div class="projects-container">
-            <div class="projects-item">
-                <div class="projects-img-container">
-                    <img class="projects-img" src="images/conflicts_img.png"></img>
-                </div>
-                <div class="projects-title">Repression</div>
-                <div class="projects-date">Summer 2017</div>
-                <div class="projects-desc">This projects visualizes episodes of political repression since World War II. Details are available in it's GitHub repository.</div>
-            </div>
-        </div>
-        <div class="projects-container">
-            <div class="projects-item">
-                <div class="projects-img-container">
-                    <img class="projects-img" src="images/risks_img.png"></img>
-                </div>
-                <div class="projects-title">Mass Killings</div>
-                <div class="projects-date">Summer 2017</div>
-                <div class="projects-desc">This project visualizes the risks of state-led mass killings around the world. Details are available in it's GitHub repository.</div>
+            <div class="index-mission">
+                I'm a junior Dartmouth College studying Government and Computer Science. I'm interested in leveraging computer science tools to solve problems of international and domestic politics.
             </div>
         </div>
     </div>
@@ -191,38 +172,51 @@
             <div class="content-title">
                 <span class="content-title-first">D</span>rew <span class="content-title-first">N</span>avin <span class="content-title-first">L</span>eonard<span class="content-title-subtitle">Projects</span>
             </div>
-            <div class="project-container">
-                <div class="project-img-container">
-                    <img class="project-img-non-mobile" src="images/trade_img.png"></img>
-                </div>
-                <div class="project-info-container">
-                    <div class="project-info-title">World Trade<span class="project-info-date">Fall 2017 (in progress)</span></div>
-                    <div class="project-info-desc">This projects will visualize global free trade flows between 1870 and 2014. Data comes from the Correlates of War (COW) project.</div>
-                </div>
+            <div class="project-indv-header">
+                <span class="project-indv-header-title">Mass Killings</span> visualizes the risks of state-led mass killings around the world. I built it for the Early Warning Project during Summer 2017.
             </div>
-            <div class="project-container">
-                <a href="https://goo.gl/UpA4UD" target="_blank">
-                    <div class="project-img-container">
-                        <img src="images/conflicts_img.png"></img>
+            <div class="project-link">
+                Link to project: <a class="project-link-link" href="https://goo.gl/U7dZGj" target="_blank">https://goo.gl/U7dZGj</a>
+            </div>
+            <div class="project-link">
+                Link to GitHub repository: <a class="project-link-link" href="https://goo.gl/zCqpBH" target="_blank">https://goo.gl/zCqpBH</a>
+            </div>
+            <a href="https://goo.gl/U7dZGj" target="_blank">
+                <div class="project-img-container-large">
+                    <img src="images/risks_large.png">
+                </div>
+            </a>
+            <div class="project-indv-container">
+                <div class="project-indv-title">
+                    Details
+                </div>
+                <div class="project-indv-desc-container">
+                    <div class="project-indv-desc">
+                        This project leverages JavaScript (D3.js, jQuery.js), HTML5, and CSS3 to plot risks of state-led mass killings for countries with populations above 500,000. Users can use the left bar chart to view each country's percentage risk, which are ordered by magnitude. The right bar chart displays the variables that comprise risk assessments and vary by country.
                     </div>
-                </a>
-                <div class="project-info-container">
-                    <div class="project-info-title">
-                        <a class="project-info-title-link">Repression</a>
-                        <span class="project-info-date">Summer 2017</span></div>
-                    <div class="project-info-desc">This projects visualizes episodes of political repression since World War II. I built it as a Research Assistant in Dartmouth's Dept. of Government for the Early Warning Project.</div>
+                    <div class="project-indv-desc">
+                        Data for risk assessments and their component parts come from the Early Warning Project, which compiled data from various open-source datsets and performed statistical forecasts. Risk assessments are averages of forecasts from three models: Bad Regime, Elite Threat, and Random Forest. These models represents different ideas about the origins of mass atrocities, and are developed from historical data that compare cases where state-led mass killings occurred to ones where they didn’t. Further details on the data are provided in this project's GitHub repository.
+                    </div>
+                    <div class="project-indv-desc">
+                        The project is deployed with Surge. Previously, I used Mike Bostock's bl.ocks.org and gistup software to host the website. The project's color scheme utilizes the Solarized color palette.
+                    </div>
                 </div>
             </div>
-            <div class="project-container">
-                <div class="project-img-container">
-                    <img src="images/risks_img.png"></img>
+            <div class="project-indv-container">
+                <div class="project-indv-title">
+                    Motivation
                 </div>
-                <div class="project-info-container">
-                    <div class="project-info-title">Mass Killings<span class="project-info-date">Summer 2017</span></div>
-                    <div class="project-info-desc">This project visualizes the risks of state-led mass killings around the world. I built it as a Research Assistant in Dartmouth's Dept. of Government for the Early Warning Project.</div>
+                <div class="project-indv-desc-container">
+                    <div class="project-indv-desc">
+                        I created this project for the Early Warning Project, which is an initiative to warn governments, advocacy groups, and at-risk societies of mass atrocities early. In visualizing each country's risk of a state-led mass killings and that forecast's component parts, my goal is to provide context necessary to understand how the Early Warning Project generates each forceast and how each variable contributes. Prior to this visualization, audiences interested in learning about the component parts of risk assessments could read about the models and their variables, but would have to sift through plain text files containing comma-separated-values to view the data behind each assessment. This project provides a centralized and clear format to view those component parts.
+                    </div>
+                    <div class="project-indv-desc">
+                        The project's design draws inspiration from no particular visualization or idea. I built it while I was learning to use JavaScript (and D3.js), HTML5, and CSS3, and I did not have a clear design when I started. While I assumed this project was a problem of data visualization, it became clear quickly that it was one of web design also. Accordingly, I built the project around two or three times in total to accomodate necessary changes to host this in its own website in a meaningful and elegant way. While two bar charts are not the most exciting method to visualize data, I believe the project fulfills its educational mission well.
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
     </div>
     <script src="js/index.js"></script>
 </body>
