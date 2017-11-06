@@ -359,23 +359,14 @@ body {
         border-radius: 5px;
     }
 
-    /*     .project-img-container {
-        width: 125px;
-        height: 125px;
-        display: flex;
-        overflow: hidden;
+    .projects-img-container-large {
+        width: 600px;
+        height: 175px;
         border-radius: 5px;
-    } */
-    .project-img-container-large {
         margin: 2em 0 2em 0;
-        display: flex;
-        width: auto;
-        height: auto;
-        overflow: hidden;
-        border-radius: 5px;
     }
 
-    .project-img-container-large:hover {
+    .projects-img-container-large:hover {
         box-shadow: 2px 2px 18px var(--dartmouth-green);
         cursor: pointer;
     }
@@ -383,6 +374,11 @@ body {
     .project-img-container:hover {
         box-shadow: 2px 2px 18px var(--dartmouth-green);
         cursor: pointer;
+    }
+
+    .no-shadow:hover {
+        box-shadow: none;
+        cursor: default;
     }
 
     .project-info-container {
@@ -393,6 +389,15 @@ body {
     .project-info-title {
         font-weight: 500;
         font-size: 3em;
+    }
+
+    .project-info-title-link {
+        text-decoration: none;
+        color: var(--primary-font-color);
+    }
+
+    .project-info-title-link:hover {
+        color: var(--dartmouth-green);
     }
 
     .project-info-date {
@@ -432,6 +437,8 @@ body {
         text-transform: uppercase;
         font-weight: 600;
     }
+
+    .project-title-info-title {}
 
     .project-link {
         font-size: 1.25em;
