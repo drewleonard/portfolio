@@ -19,7 +19,8 @@ body {
     font-family: var(--primary-font);
     font-size: var(--primary-font-size);
     color: var(--primary-font-color);
-    overflow: hidden;}
+    overflow: hidden;
+}
 
 body {
     overflow: hidden;
@@ -504,7 +505,7 @@ body {
         text-transform: uppercase;
         border-bottom: 1px solid;
         margin: 1em 0 0.50em 0;
-        max-width: 450px;
+        /* max-width: 450px; */
     }
 
     .resume-item-flex {
@@ -607,5 +608,23 @@ body {
 
     button:hover {
         text-decoration: none
+    }
+
+    .index-item-header {
+        font-size: 2em;
+        margin: 0 0 1em 0;
+        text-transform: uppercase;
+    }
+
+    .index-header {
+        /* text-transform: uppercase; */
+        font-weight: 500;
+        /* font-size: .90em; */
+    }
+
+    .index-item {
+        max-width: 550px;
+        font-size: 1.50em;
+        margin: 0 0 1em 0;
     }
 }
