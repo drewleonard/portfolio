@@ -285,7 +285,7 @@ body {
     .content-non-mobile {
         flex-grow: 1;
         overflow-y: scroll;
-        max-width: 600px;
+        max-width: 650px;
         padding: 0 25px 25px 25px;
     }
 
@@ -323,7 +323,7 @@ body {
 
     .content {
         flex-grow: 1;
-        max-width: 600px;
+        max-width: 650px;
     }
 
     .content-title {
@@ -354,13 +354,18 @@ body {
     }
 
     .project-img-container {
-        display: flex;
         width: 125px;
         height: 125px;
-        overflow: hidden;
         border-radius: 5px;
     }
 
+    /*     .project-img-container {
+        width: 125px;
+        height: 125px;
+        display: flex;
+        overflow: hidden;
+        border-radius: 5px;
+    } */
     .project-img-container-large {
         margin: 2em 0 2em 0;
         display: flex;
