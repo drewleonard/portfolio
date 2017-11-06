@@ -39,9 +39,17 @@ body {
     }
 
     .nav-container-mobile {
-        display: flex;
+        flex-shrink: 0;
+        display: inline-flex;
         flex-direction: row;
-        position: static;
+        height: 6em;
+    }
+
+    .container-mobile {
+        height: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
     }
 
     .content-mobile {
@@ -50,7 +58,23 @@ body {
     }
 
     .index-content {
-        margin: 2.5vw 2.5vw 2.5vh 2.5vw;
+        margin: 5vw;
+    }
+
+    .index-intro {
+        font-size: 2em;
+        margin: 1em 0 1.50em 0;
+        text-transform: uppercase;
+    }
+
+    .index-header {
+        color: var(--dartmouth-green);
+        font-weight: 500;
+    }
+
+    .index-item {
+        font-size: 1.50em;
+        margin: 1em 0 0 0;
     }
 
     .nav-item {
@@ -83,6 +107,10 @@ body {
         margin: 2.5vw 2.5vw 2.5vh 2.5vw;
     }
 
+    .projects-img {
+        object-fit: cover;
+    }
+
     .projects-img-container {
         align-self: center;
         display: flex;
@@ -90,17 +118,19 @@ body {
         width: 95vw;
         height: 30vw;
         overflow: hidden;
-        border: 0.50px solid var(--primary-font-color);
+        border: 1px solid var(--primary-font-color);
     }
 
     .projects-title {
-        font-weight: 500;
-        font-size: 2em;
+        /* font-weight: 500; */
+        text-transform: uppercase;
+        font-size: 2.5em;
         align-self: flex-start;
         margin: 2.5vw 0 0 0;
     }
 
     .projects-date {
+        text-transform: uppercase;
         font-size: 1.25em;
         align-self: flex-start;
         color: var(--secondary-font-color);
@@ -114,6 +144,13 @@ body {
         border-bottom: 0.75px solid var(--primary-font-color);
     }
 
+    .resume-desc {
+        margin: 1em 0 0 0;
+        text-decoration: none;
+        color: var(--primary-font-color);
+        font-size: 1.1em;
+    }
+
     .resume-item {
         display: flex;
         flex-direction: column;
@@ -122,9 +159,9 @@ body {
 
     .resume-item-title {
         font-size: 2.5em;
-        color: var(--solarized-red);
-        border-bottom: 3px solid var(--solarized-red);
-        font-weight: 500;
+        color: var(--dartmouth-green);
+        border-bottom: 2px solid var(--dartmouth-green);
+        text-transform: uppercase;
     }
 
     .resume-item-content-wrapper {
@@ -173,8 +210,8 @@ body {
 
     .contact-title {
         font-size: 2em;
-        font-weight: 500;
-        border-bottom: 0.75px solid var(--primary-font-color);
+        border-bottom: 2px solid var(--primary-font-color);
+        text-transform: uppercase;
     }
 
     .contact-info {
@@ -233,13 +270,14 @@ body {
     }
 
     .about-item {
-        margin: 2.5vw 2.5vw 2.5vh 2.5vw;
+        margin: 2.5vw 2.5vw 2.5vw 2.5vw;
     }
 
     .about-title {
         font-size: 2em;
-        font-weight: 500;
-        border-bottom: 0.75px solid var(--primary-font-color);
+        /* color: var(--dartmouth-green); */
+        border-bottom: 2px solid var(--primary-font-color);
+        text-transform: uppercase;
     }
 
     .about-content {
@@ -261,11 +299,7 @@ body {
 
 @media screen and (min-width: 601px) {
 
-    .nav-container-mobile {
-        display: none;
-    }
-
-    .content-mobile {
+    .container-mobile {
         display: none;
     }
 
@@ -617,9 +651,7 @@ body {
     }
 
     .index-header {
-        /* text-transform: uppercase; */
         font-weight: 500;
-        /* font-size: .90em; */
     }
 
     .index-item {
