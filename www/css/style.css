@@ -437,6 +437,13 @@ body {
     .project-indv-header-title {
         text-transform: uppercase;
         font-weight: 600;
+        text-decoration: none;
+        color: var(--primary-font-color);
+    }
+
+    .project-indv-header-title:hover {
+        color: var(--dartmouth-green);
+        cursor: pointer;
     }
 
     .project-title-info-title {}
@@ -493,9 +500,9 @@ body {
     }
 
     .resume-title {
-        font-size: 2.5em;
+        font-size: 2em;
         text-transform: uppercase;
-        border-bottom: 2px solid;
+        border-bottom: 1px solid;
         margin: 1em 0 0.50em 0;
         max-width: 450px;
     }
@@ -504,7 +511,7 @@ body {
         margin: 0 0 2em 0;
         display: flex;
         flex-direction: row;
-        font-size: 1.25em;
+        font-size: 1.15em;
     }
 
     .resume-item-date {
